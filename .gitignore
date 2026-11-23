@@ -1,0 +1,20 @@
+# This repository ships installers through GitHub Releases, never through the tree.
+# Keep binaries out of git history: a 9 MB .exe committed today is 9 MB every
+# clone until the end of time, while a Release asset is stored separately and
+# gets a download counter.
+*.exe
+*.msi
+*.crx
+*.zip
+!Extension.zip
+
+# Local scratch
+/dist/
+/release/
+*.tmp
+*.log
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
