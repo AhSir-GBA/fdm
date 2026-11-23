@@ -65,15 +65,45 @@
 
 <div align="center">
 
-<img src="docs/assets/screenshot-main.png" width="840" alt="主窗口：左侧分类，右侧下载列表，分段进度条显示每条连接的状态">
+<img src="docs/assets/theme-graphite.png" width="860" alt="FDM 主窗口 · 石墨主题（默认）：左侧下载与分类侧栏，右侧任务列表与工具栏">
 
-<sub>主窗口 — 分段进度条能看出每条连接是否在干活</sub>
+<sub><b>石墨</b>（默认主题）— 左侧分类，右侧任务列表，工具栏可批量暂停 / 继续 / 清除已完成</sub>
 
 <br><br>
 
-<img src="docs/assets/screenshot-popup.png" width="560" alt="单个下载的详细窗口：速度、大小、剩余时间、保存位置">
+<img src="docs/assets/theme-blossom.png" width="860" alt="FDM 主窗口 · 樱粉主题：同一套界面的粉色配色">
 
-<sub>单任务窗口 — 速度 / 大小 / 剩余时间 / 落盘位置一目了然</sub>
+<sub><b>樱粉</b> — 同一套界面换配色，不是换皮，布局与交互完全一致</sub>
+
+<br><br>
+
+<img src="docs/assets/settings-appearance.png" width="620" alt="设置 → 外观：石墨、苹果、蔚蓝、樱粉、浅灰、黑白 六套主题卡片">
+
+<sub>设置 → 外观 — 6 套主题一键切换，即时生效、重启后保持</sub>
+
+</div>
+
+### 🎨 六套主题
+
+| 主题 | 风格 | 适用场景 |
+|---|---|---|
+| **石墨** Graphite | 深色 + 红色强调（默认） | 长时间挂机下载，夜间不刺眼 |
+| **苹果** Cupertino | 浅色 + 系统蓝，圆角留白 | 习惯 macOS 观感 |
+| **蔚蓝** Azure | 深蓝渐变 + 青蓝高光 | 偏科技 / 电竞风格桌面 |
+| **樱粉** Blossom | 浅粉 + 玫红强调 | 喜欢清爽可爱配色 |
+| **浅灰** Slate | 中性灰，低对比柔和 | 办公环境，融入浅色系统 |
+| **黑白** Onyx | 纯黑底 + 纯白高对比 | 强光下或追求极简 |
+
+> 切换位置：**设置 → 外观**。选择立刻生效并写入本地配置，重启后保持；
+> 切换界面语言时，主题名称也会跟着翻译。
+
+### 单任务窗口
+
+<div align="center">
+
+<img src="docs/assets/screenshot-popup.png" width="540" alt="单个下载的详细窗口：速度、大小、剩余时间、保存位置">
+
+<sub>每个任务独立窗口 — 速度 / 大小 / 剩余时间 / 落盘位置一目了然（图为英文界面）</sub>
 
 </div>
 
