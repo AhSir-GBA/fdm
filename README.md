@@ -8,7 +8,7 @@
 
 *免广告、无遥测、安装即用*
 
-![Version](https://img.shields.io/badge/version-1.06-e50914?style=flat-square)
+![Version](https://img.shields.io/github/v/release/AhSir-GBA/fdm?style=flat-square&label=version&color=e50914)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d7?style=flat-square\&logo=windows)
 
