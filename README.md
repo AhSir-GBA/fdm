@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="brand/logo/fdm-icon.svg" width="104" height="104" alt="FDM — Fast Download Manager">
+![FDM — Fast Download Manager](brand/logo/fdm-icon.svg)
 
 # FDM — Fast Download Manager
 
@@ -8,22 +8,25 @@
 
 *免广告、无遥测、安装即用*
 
-[![Version](https://img.shields.io/badge/version-1.04-e50914?style=flat-square)](#-下载安装)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d7?style=flat-square&logo=windows)](#-下载安装)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
+![Version](https://img.shields.io/badge/version-1.06-e50914?style=flat-square)
+
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d7?style=flat-square\&logo=windows)
+
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)
 
 [下载安装](#-下载安装) • [功能](#-功能特性) • [截图](#-界面截图) • [浏览器扩展](#-浏览器扩展) • [常见问题](#-常见问题) • [许可](#-许可与署名)
 
-<br>
+  
 
-<img src="docs/assets/hero.svg" width="740" alt="FDM 下载窗口：5.7 GB 文件通过 32 条并行连接传输">
+
+![FDM 下载窗口：5.7 GB 文件通过 32 条并行连接传输](docs/assets/hero.svg)
 
 </div>
 
 ---
 
-> [!NOTE]
-> 本仓库**只发布 Windows 安装包与说明文档，不包含源代码**。
+> [!NOTE]  
+> 本仓库**只发布 Windows 安装包与说明文档，不包含源代码**。  
 > 程序基于 [Ahmad Farooq](https://github.com/ahmadfarooq) 的开源项目 **FDM** 二次开发（Apache-2.0），由本人维护构建与中文适配。
 
 ---
@@ -34,14 +37,16 @@
 2. 双击运行安装包，Windows UAC 提示时点「是」（需要管理员权限：注册浏览器本地通信组件）。
 3. 装完后打开 Chrome / Edge / Brave，扩展会自动注册；若未生效，按下方「浏览器扩展」手动加载一次。
 
-| 项目 | 说明 |
-|---|---|
-| **安装位置** | `C:\Program Files\FDM` |
+| 项目         | 说明                                                        |
+| ---------- | --------------------------------------------------------- |
+| **安装位置**   | `C:\Program Files\FDM`                                    |
 | **默认下载目录** | `下载\FDM\{视频, 音乐, 压缩包, 程序, 文档, 其它}`（可在设置里改，也可设为「记住上次保存位置」） |
-| **浏览器组件** | 注册 `com.fdm.native_host`，支持 Chrome / Edge / Brave |
-| **媒体工具** | 内置 `yt-dlp.exe`、`deno.exe`、`ffmpeg.exe`，视频嗅探不需要另外装东西 |
-| **运行环境** | 检测 WebView2 运行时，缺失时自动静默安装 |
-| **安装向导语言** | 简体中文 / 英文等，跟随系统 |
+| **浏览器组件**  | 注册 `com.fdm.native_host`，支持 Chrome / Edge / Brave         |
+| **媒体工具**   | 内置 `yt-dlp.exe`、`deno.exe`、`ffmpeg.exe`，视频嗅探不需要另外装东西      |
+| **运行环境**   | 检测 WebView2 运行时，缺失时自动静默安装                                 |
+| **安装向导语言** | 简体中文 / 英文等，跟随系统                                           |
+
+
 
 > 安装包暂未做代码签名，Windows 可能提示「未知发布者」。点 **更多信息 → 仍要运行** 即可。
 
@@ -49,15 +54,15 @@
 
 ## ✨ 功能特性
 
-* **🚀 最多 64 线程并行加速** — 把文件切成多段同时下载，绕开服务器单连接限速，跑满带宽。实测 18 GB 模型文件稳定在 19.6 MB/s、64 条连接。
-* **🎥 网页视频嗅探** — 在视频画面上直接显示画质面板（4K / 1440p / 1080p / 720p / 480p / 360p / MP3），点一下就开始下载；按钮吸附在视频边框外侧，不挡画面。
-* **⚡ 直连流交接** — 从浏览器直接接管 CDN 流地址与登录态，省掉外部解析器的十几秒等待。
-* **🎨 6 套界面主题** — Graphite（默认）/ 苹果 / 蓝色科技 / 粉色可爱 / 灰色 / 黑白相间，一键切换、即时生效、重启后保持。
-* **📂 分类归档** — 视频、音乐、压缩包、程序、文档自动分流到不同文件夹。
-* **💾 真正断点续传** — 分段进度写入 `.fdm` 检查点，断电、断网、重启都能接着下。
-* **🌐 12 种界面语言** — 简体中文、English、Русский、Español、Français、Deutsch、Português、العربية、हिन्दी、Türkçe、Bahasa Indonesia、اردو。
-* **🖥️ 命令行工具** — `fdm.exe` 支持脚本化下载、自定义请求头、SHA-256 校验。
-* **🔒 无遥测** — 不收集任何使用数据，不联网检查版本。
+- **🚀 最多 64 线程并行加速** — 把文件切成多段同时下载，绕开服务器单连接限速，跑满带宽。实测 18 GB 模型文件稳定在 19.6 MB/s、64 条连接。
+- **🎥 网页视频嗅探** — 在视频画面上直接显示画质面板（4K / 1440p / 1080p / 720p / 480p / 360p / MP3），点一下就开始下载；按钮吸附在视频边框外侧，不挡画面。
+- **⚡ 直连流交接** — 从浏览器直接接管 CDN 流地址与登录态，省掉外部解析器的十几秒等待。
+- **🎨 6 套界面主题** — Graphite（默认）/ 苹果 / 蓝色科技 / 粉色可爱 / 灰色 / 黑白相间，一键切换、即时生效、重启后保持。
+- **📂 分类归档** — 视频、音乐、压缩包、程序、文档自动分流到不同文件夹。
+- **💾 真正断点续传** — 分段进度写入 `.fdm` 检查点，断电、断网、重启都能接着下。
+- **🌐 12 种界面语言** — 简体中文、English、Русский、Español、Français、Deutsch、Português、العربية、हिन्दी、Türkçe、Bahasa Indonesia、اردو。
+- **🖥️ 命令行工具** — `fdm.exe` 支持脚本化下载、自定义请求头、SHA-256 校验。
+- **🔒 无遥测** — 不收集任何使用数据，不联网检查版本。
 
 ---
 
@@ -65,19 +70,23 @@
 
 <div align="center">
 
-<img src="docs/assets/window-main.png" width="860" alt="FDM 主窗口：一个 18.07 GB 的文件以 19.6 MB/s、64 条连接下载中，另外两个任务已完成">
+![FDM 主窗口：一个 18.07 GB 的文件以 19.6 MB/s、64 条连接下载中，另外两个任务已完成](docs/assets/window-main.png)
 
 <sub>主窗口 — 18 GB 大文件跑到 <b>19.6 MB/s</b>、<b>64 条并行连接</b>，进度条按连接分段着色</sub>
 
-<br><br>
+  
+  
 
-<img src="docs/assets/dialog-status.png" width="620" alt="下载状态窗口：2.65 GB / 18.07 GB，16.59 MB/s，64 个并行线程，剩余 15 分 48 秒，支持续传">
+
+![下载状态窗口：2.65 GB / 18.07 GB，16.59 MB/s，64 个并行线程，剩余 15 分 48 秒，支持续传](docs/assets/dialog-status.png)
 
 <sub>单任务详情 — 速度 / 大小 / 剩余时间 / 是否支持续传 / 落盘路径，逐秒刷新</sub>
 
-<br><br>
+  
+  
 
-<img src="docs/assets/video-quality-panel.png" width="420" alt="网页视频画质面板：1080p FHD / 720p HD / 480p SD / 360p SD / MP3 音频">
+
+![网页视频画质面板：1080p FHD / 720p HD / 480p SD / 360p SD / MP3 音频](docs/assets/video-quality-panel.png)
 
 <sub>网页视频嗅探 — 画面上直接列出可用画质，点一下就交给 FDM 多线程抓取</sub>
 
@@ -87,28 +96,30 @@
 
 <div align="center">
 
-<img src="docs/assets/theme-blossom.png" width="760" alt="FDM 主窗口 · 樱粉主题：同一套界面的粉色配色">
+![FDM 主窗口 · 樱粉主题：同一套界面的粉色配色](docs/assets/theme-blossom.png)
 
 <sub>换成 <b>樱粉</b> 主题后的同一套界面 — 只换配色，布局与交互不变</sub>
 
-<br><br>
+  
+  
 
-<img src="docs/assets/settings-appearance.png" width="620" alt="设置 → 外观：石墨、苹果、蔚蓝、樱粉、浅灰、黑白 六套主题卡片">
+
+![设置 → 外观：石墨、苹果、蔚蓝、樱粉、浅灰、黑白 六套主题卡片](docs/assets/settings-appearance.png)
 
 <sub>设置 → 外观 — 6 套主题一键切换，即时生效、重启后保持</sub>
 
 </div>
 
-| 主题 | 风格 | 适用场景 |
-|---|---|---|
-| **石墨** Graphite | 深色 + 红色强调（默认） | 长时间挂机下载，夜间不刺眼 |
-| **苹果** Cupertino | 浅色 + 系统蓝，圆角留白 | 习惯 macOS 观感 |
-| **蔚蓝** Azure | 深蓝渐变 + 青蓝高光 | 偏科技 / 电竞风格桌面 |
-| **樱粉** Blossom | 浅粉 + 玫红强调 | 喜欢清爽可爱配色 |
-| **浅灰** Slate | 中性灰，低对比柔和 | 办公环境，融入浅色系统 |
-| **黑白** Onyx | 纯黑底 + 纯白高对比 | 强光下或追求极简 |
+| 主题               | 风格            | 适用场景          |
+| ---------------- | ------------- | ------------- |
+| **石墨** Graphite  | 深色 + 红色强调（默认） | 长时间挂机下载，夜间不刺眼 |
+| **苹果** Cupertino | 浅色 + 系统蓝，圆角留白 | 习惯 macOS 观感   |
+| **蔚蓝** Azure     | 深蓝渐变 + 青蓝高光   | 偏科技 / 电竞风格桌面  |
+| **樱粉** Blossom   | 浅粉 + 玫红强调     | 喜欢清爽可爱配色      |
+| **浅灰** Slate     | 中性灰，低对比柔和     | 办公环境，融入浅色系统   |
+| **黑白** Onyx      | 纯黑底 + 纯白高对比   | 强光下或追求极简      |
 
-> 切换位置：**设置 → 外观**。选择立刻生效并写入本地配置，重启后保持；
+> 切换位置：**设置 → 外观**。选择立刻生效并写入本地配置，重启后保持；  
 > 切换界面语言时，主题名称也会跟着翻译。
 
 ---
@@ -128,13 +139,13 @@
 
 ## ❓ 常见问题
 
-**下载速度比平时慢？**
+**下载速度比平时慢？**  
 本版本已支持读取 Windows 系统代理设置（WinINET）。如果你在用代理软件，确认它是「系统代理」模式而不是仅 TUN 模式；同时程序已强制使用 HTTP/1.1，避免 HTTP/2 单流窗口在长链路上限速。
 
-**任务列表被清空了，设置还在吗？**
+**任务列表被清空了，设置还在吗？**  
 在。偏好设置单独存放在 `%LOCALAPPDATA%\FDM\prefs.json`，不会被清空列表影响。
 
-**会替代 IDM 吗？**
+**会替代 IDM 吗？**  
 不会。这是一个独立项目，跟 Internet Download Manager 没有任何关系，也不读取它的数据。
 
 ---
@@ -151,6 +162,6 @@
 
 ---
 
-<div align="center">
-  <sub>Windows 10 (17763+) / 11 · 安装包由 Inno Setup 构建 · 问题请提 <a href="../../issues">Issue</a></sub>
+<div align="center">  
+  <sub>Windows 10 (17763+) / 11 · 安装包由 Inno Setup 构建 · 问题请提 <a href="../../issues">Issue</a></sub>  
 </div>
